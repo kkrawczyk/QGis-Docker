@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+LABEL Description="QGIS3 Desktop" Version="3.4.6-Madeira" maintainer="krzysztof@krawczyk.czest.pl"
+
 ENV USER_ID 1000
 ENV USER_NAME qgis-user
 ENV USER_GROUP_ID 1000
